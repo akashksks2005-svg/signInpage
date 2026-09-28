@@ -1,0 +1,178 @@
+
+body{
+
+    background-color: rgb(43, 43, 43);
+
+}
+
+/* nav bar css */
+
+
+
+.nav-item:hover{
+                /* background-color: rgb(255, 174, 0); */
+                border: 1px solid rgb(255, 255, 255);
+                /* border-radius: 10px;
+                box-shadow: 5px 5px 10px; */
+           
+
+
+}
+
+.formsize{
+      
+         height: 15px;
+
+}
+
+.nav-item a {
+           color: white;
+
+
+}
+
+.nav-item2 a {
+           color: rgb(255, 249, 249);
+           transition: all 0.3s ease;
+           cursor: pointer;
+
+}
+
+.nav-item1:hover{
+                background-color: rgb(219, 219, 219);
+               
+                
+               
+
+}
+
+.nav-item2:hover{
+                /* background-color: rgb(255, 174, 0);
+                border: 1px solid rgb(0, 0, 0);
+                border-radius: 10px;
+               padding: 2px; */
+                color: rgb(255, 0, 0);
+                transform: translateY(-8px);
+             
+
+
+}
+
+.dd2{
+
+    font-size: smaller;
+}
+ 
+h5{
+
+   font: 1em sans-serif;
+   font-weight: 200;
+
+
+}
+   
+
+/* hero section css */
+
+.card-text{
+
+             width: 150px;
+             font-size: small;
+           
+
+
+
+}
+
+.link-seemore a {
+               text-decoration: none;
+              list-style-type: none;
+
+}
+
+.card-body1 p {
+
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+      
+    -webkit-box-orient: vertical;
+     overflow: hidden;
+}
+
+.zeb-22 a {
+
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+      
+    -webkit-box-orient: vertical;
+     overflow: hidden;
+  
+     text-decoration: none;
+     font-size: 20px;
+     
+}
+
+.badge22 {
+      
+     background-color: rgb(201, 14, 14);
+     width: 140px;
+     
+}
+
+.time-deal {
+ 
+       color: white;
+       font-weight: bold;
+
+
+}
+
+html body{
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+.product-img{
+
+              
+}
+
+.product-img img {
+
+             transition: 0.3s;
+}
+
+.product-img:hover{
+
+              transform: scale(1.1);
+              color: orangered;
+}
+
+.btn-buy{
+           /* background-color: rgb(255, 199, 179);
+           color: white;
+           transition: 0.3s; */
+           animation: pulse 1.5s infinite;
+
+}
+
+@keyframes pulse{
+         
+     0%{ transform: scale(1);}
+      50%{ transform: scale(1.1);}
+       100%{ transform: scale(1);}
+
+
+
+}
+
+.btn-buy:hover{
+
+
+        transform: scale(1.1);
+        color: rgb(255, 201, 181);
+}

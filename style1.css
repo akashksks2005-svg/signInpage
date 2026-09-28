@@ -1,0 +1,61 @@
+body{
+background-color: rgb(255, 106, 0);
+
+}
+
+.fullForm{
+
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+
+
+
+
+}
+
+h2{
+
+    text-align: center;
+  background-color: rgb(255, 247, 200);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+.btn{
+
+   margin-top: 20px;
+    width: 100%;
+    color: #ffffff;
+    background-color: green;
+
+}
+
+.error-message{
+
+    color: red;
+}
+
+.error{
+
+    border: 2px solid red !important;
+
+}
+
+.show-password{
+
+background-color: rgb(255, 181, 101);
+padding: 5px;
+border: none;
+margin-top: 4px;
+border-radius: 10px;
+font-size: 7px;
+color: white;
+
+
+
+}
